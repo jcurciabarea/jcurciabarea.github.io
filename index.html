@@ -29,7 +29,6 @@
       color: skyblue;
     }
     .main {
-      position: fixed;
       margin-top: 80px;
       margin-left: 140px; /* Same width as the sidebar + left position in px */
       margin-right: 140px;
@@ -46,7 +45,18 @@
     h4 {
       text-align: center;
     }
-
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+      .sidenav a {
+        font-size: 18px;
+      }
+      .main {
+        font-size: 20px;
+        margin: auto;
+      }
+    }
 
   </style>
   </head>
