@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Juan Carlos | About</title>
+		<title>Juan Carlos | CV</title>
 		<meta charset="utf-8">
 
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
 		<style>
-			html {
-				overflow-y: scroll;
-			}
+
 			.topnav {
 				width: 100%;
     			text-align:center;
@@ -55,25 +53,33 @@
 				margin: auto;
 				padding: 1em;
 			}
+
 			.contentj p {
 				font-size: 12pt;
 				font-family: 'Open Sans', sans-serif;
 				color: black;
-				margin: auto;
+				margin: 0;
 			}
 
-			.contentj a {
+			.contentj li {
+				font-size: 12pt;
+				font-family: 'Open Sans', sans-serif;
+				color: black;
+			}
+
+			.contentj a:link {
 				color: #990033;
 				text-decoration: none;
-				margin-left: auto;
-				margin-right: auto;
 			}
 
-			.center {
-			 	 display: block;
-			 	 margin-left: auto;
-			 	 margin-right: auto;
-			 	 width: 60%;
+			.contentj a:visited {
+				color: #990033;
+				text-decoration: none;
+			}
+
+			.contentj a:active {
+				color: #990033;
+				text-decoration: none;
 			}
 
 		</style>		
@@ -92,12 +98,13 @@
 		<hr noshade color="#990033" size="1" width="45%">
 		<br>
 		<div class="contentj">
-			<a href="Urcia_CV.pdf" download>Download PDF</a>
+			<p style="text-align: center">
+				<a href="Urcia_CV.pdf" download>Download PDF</a>
+			</p>
+			<br>
+			<!-- <iframe src="Urcia_CV.pdf" width="100%" height="1020px"></iframe> -->
 		</div>
 		<br>
-		<hr noshade color="#990033" size="1" width="20%">
 		<br>
-		<br>
-		<iframe src="Urcia_CV.pdf" width="100%" height="1020px"></iframe>
 	</body>
 </html>
